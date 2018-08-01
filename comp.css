@@ -1,0 +1,111 @@
+@keyframes pics {
+    /* 28C */
+    from {width: 100px; height:100px;}
+    to {width: 450px; height:350px;}
+}
+@media only screen and (max-width: 600px) {
+    /* 29C 29D*/
+    [class*="col-3"] {
+        width: 100%;
+    }
+}
+body{
+    /* 24C 23F 25C-2 */
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    background-image: url('http://desktop-backgrounds-org.s3.amazonaws.com/greek-places_5.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#content + #lorem {
+    /* 22C-5 */
+    font-weight: 500;
+    color: black;
+}
+#head > header{
+    /* 24E 23D-2 23D-3 23E 22C-4 30D*/
+    position: relative;
+    margin: auto;
+    width: 25vw;
+    font-size: 24px;
+    background: linear-gradient(to right, white, lightblue);
+    padding: 20px 0 20px 0;
+    color: black;
+}
+#images {
+     /* 25F 25C-1 22C-1*/
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+img{
+    /* 24F 28D 30C*/
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 350px;
+    box-shadow: 3px 3px 20px;
+    box-sizing: border-box;
+    animation-name: pics;
+    animation-duration: 1s;
+    transition: 1s;
+}
+img:hover{
+    /* 28E */
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+#body #lorem {
+    /* 24D 23D-1 22C-3 30E 27C 27D 27E 27F 27G*/
+    /* position: absolute; */
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 500;
+    word-wrap: break-word;
+    
+}
+p{
+    width: 450px;
+}
+input{
+    /* 25D*/
+    /* position: absolute; */
+    float: right;
+    margin-right: 100px;
+}
+#result{
+    /* position: relative; */
+    background-color: white;
+    height: 25px;
+    width: 80px;
+    /* -webkit-transition: grow 1s;  */
+    transition: 1s;
+    margin: 25px auto ;
+    
+}
+#result:hover{
+    width: 160px;
+    height: 130px;
+    font-size: 32px;
+}
+.foot{
+    /* 25C-3 22C-2*/
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    left: 0;
+}

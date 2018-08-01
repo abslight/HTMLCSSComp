@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 54I-1 -->
+
+<head>
+    <!-- 54I-2 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 54H -->
+    <link rel="stylesheet" href="./comp.css" media="screen">
+    <title>HTML & CSS</title>
+</head>
+
+<body>
+    <!-- 54J 54I-3-->
+    <span id='head'>
+        <!-- 54C-2 -->
+        <header>
+            <!-- 54F-1 -->
+            <h1>HTML & CSS Competency</h1>
+        </header>
+    </span>
+    <section id='body'>
+        <div id='content'>
+            <!-- 54C-3 -->
+            <script>
+                // 61C
+                var color = false
+                function clickMe() {
+                    color = !color
+                    if (color === true) {
+                        document.getElementById("result").style.color = 'purple'
+                    } else {
+                        document.getElementById("result").style.color = 'black'
+                    }
+                }
+            </script>
+            <!-- 54F-2 54H-->
+            <h2>
+                <a href="https://www.lipsum.com/">Lorem Ipsum</a>
+            </h2>
+            <br/>
+            <input id='inp' type="text" />
+            <!-- 54G -->
+            <h6 id='result' onclick="clickMe()">Click me to change my color</h6>
+        </div>
+        <div id='lorem'>
+            <!-- 54C-1 54D-1-->
+            <article>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum."</p>
+            </article>
+            <article>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum."</p>
+            </article>
+            <article>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum."</p>
+            </article>
+        </div>
+    </section>
+    <section id='images'>
+        <!-- 54E-2 54E-1 54D-2-->
+        <ul>
+            <img class='col-3' src="https://ka-perseus-images.s3.amazonaws.com/2f4535f632cc9d93c4e44367eb0ed8121a386f7c.jpg" alt="The Parthenon">
+        </ul>
+        <ul>
+            <img class='col-3' src="https://ka-perseus-images.s3.amazonaws.com/57094f67a11a42bee8031260466701f6bd94a98a.jpg" alt="The Erechtheion">
+        </ul>
+        <ul>
+            <img class='col-3' src="https://ka-perseus-images.s3.amazonaws.com/eafe92806732feda38dee0357f7cd41e138890ab.jpg" alt="The Second Temple of Hera">
+        </ul>
+    </section>
+    <footer class='foot'>
+        <!-- 54D-3 -->
+        Greek Architecture ABS
+    </footer>
+</body>
+
+</html>
